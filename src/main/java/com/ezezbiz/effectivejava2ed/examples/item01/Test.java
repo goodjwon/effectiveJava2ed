@@ -21,7 +21,7 @@ public class Test {
             return new Service() {
                 @Override
                 public String toString() {
-                    return "Default service";
+                    return "DEFAULT_PROVIDER Default service";
                 }
             };
         }
@@ -34,7 +34,7 @@ public class Test {
             return new Service() {
                 @Override
                 public String toString() {
-                    return "Default service";
+                    return "COMP_PROVIDER Default service";
                 }
             };
         }
@@ -47,7 +47,7 @@ public class Test {
             return new Service() {
                 @Override
                 public String toString() {
-                    return "Default service";
+                    return "ARMED_PROVIDER Default service";
                 }
             };
         }
